@@ -1,0 +1,20 @@
+package fayez;
+
+public class fayez {
+
+	public static void main(String[] args)
+	{
+		
+		
+		two obj1= new two();
+		System.out.println("hello java");
+		obj1.num1=2;
+		obj1.num2=3;
+		System.out.println(obj1.sum());
+		System.out.println(obj1.sub());
+		System.out.println(obj1.multi());
+		System.out.println(obj1.divid());
+
+	}
+
+}
