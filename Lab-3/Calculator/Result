@@ -1,0 +1,11 @@
+package cal;
+
+public class result 
+
+{
+	protected void res(int x)
+	{
+		System.out.println(x);
+	}
+
+}
