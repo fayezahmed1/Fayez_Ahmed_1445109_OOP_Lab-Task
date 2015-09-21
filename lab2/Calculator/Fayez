@@ -1,0 +1,45 @@
+package fayez;
+
+public class two 
+{
+public int num1,num2;
+private float num3;
+public float sum()
+{
+	num3=num1+num2;
+	return num3;
+}
+public float sub()
+{
+	if(num1>num2)
+	{
+		num3=num1-num2;
+		return num3;
+	}
+	else
+	{
+		num3=num2-num1;
+		return num3;
+	}
+}
+public float multi()
+{
+	num3=num1*num2;
+	return num3;
+}
+public float divid()
+	{
+		if(num1>num2)
+		{
+			num3=num1/num2;
+			return num3;
+		}	
+		else
+		{
+			num3=num2/num1;
+			return num3;
+		}
+	
+	}
+}
+
